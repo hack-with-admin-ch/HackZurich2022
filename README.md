@@ -8,7 +8,7 @@ If you have any questions or further commentary regarding the documentation and 
 
 ## Challenge description
 
-While recent events let us have a glimpse at what our future in a world of rising global temperatures and increasingly hot and dry summers might look like, climate change and its impact on our everyday lives is a complex issue. Both historical data and official scenarios are available to us – in theory. But can we as citizens truly grasp the scope, the "feel" of climate change?
+While recent events let us have a glimpse at what our future in a world of rising global temperatures and increasingly hot and dry summers might look like, climate change and its impact on our everyday lives is a complex issue. While both historical data and official scenarios are available to us, truly grasping the scope, the "feel" of climate change remains difficult. 
 That's where our challenge comes in: **help us make climate change more tangible by developing a solution that allows citizens to access and comprehend the information provided by the federal administration in an innovative way!**
 
 ## Background
