@@ -2,12 +2,7 @@
 
 Welcome to “Hack with Admin CH”. In this repository, you will find all the information and tools you need to master our challenge. You can find more information about the challenge, our partners and us at <http://bit.ly/3kJVNzK>.
 
-Before you read any further, please note that this documentation is still a work in progress; we will continue to update the repository until the start of the event. If you want to stay up to date, we’d suggest you “watch” the repository.
-
-**We will add some Python Jupyter notebooks showing how to access the data.**
-
-If you have any questions or further commentary regarding the documentation and provided code, feel free to get in touch with us by participating in discussions, creating issues or pull requests.
-**You can also reach us in Discord [Channel #18-foitt-fso](https://discord.com/channels/987004253711245342/1011653890585927724).**
+**You can reach us in Discord [Channel #18-foitt-fso](https://discord.com/channels/987004253711245342/1011653890585927724).**
 
 ## Challenge description
 
