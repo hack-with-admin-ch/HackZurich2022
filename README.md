@@ -42,6 +42,8 @@ The official Swiss Hydro-CH2018 hydrological scenarios further indicate that cli
 
 ## Data
 
+Have a look at the [Jupyter notebook `loading_datasets_example.ipynb`](loading_datasets_example.ipynb) to find examples of how to use the following datasets.
+
 - [Homogeneous data series since 1864, temp and precipitation, per month/year](https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/homogeneous-data-series-since-1864.html?region=Table)
 - [Klimamessnetz **Tageswerte** seit Messbeginn](https://opendata.swiss/de/dataset/klimamessnetz-tageswerte) Download gives you a text file with metadata and link to download a list of links... :-)
 - [Klimamessnetz **Monatswerte**](https://opendata.swiss/de/dataset/klimamessnetz-monatswerte)
