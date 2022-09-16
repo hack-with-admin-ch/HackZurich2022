@@ -37,13 +37,21 @@ For instance, already today, Switzerland has experienced a long-term **warming a
 
 The official Swiss CH2018 [Climate Change Scenarios](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios.html) show where and how climate change affects Switzerland. The expected consequences of unchecked climate change for Switzerland include more hot days, dry summers, heavy precipitation and winters with little snow. How drastic these changes will be depending on global efforts to mitigate climate change by curbing CO2 emissions.
 
-Possible scenario in **2060**, without mitigation: The average near-surface air temperature in Switzerland through June, July and August is about **4.5 °C warmer** than today. At the same time, there is up to **a quarter less rainfall**, and the **longest dry period without precipitation in summer lasts about 20 days instead of 11**. For example, in the hottest days in summer, temperatures could shoot up 5.5 °C higher than we are accustomed to now. Hot summers such as in the record year of 2003 have become the norm. Very hot days – with temperatures that used to occur only once in a year – are now occurring on average 18 times per year. [Cities are particularly vulnerable](https://www.nccs.admin.ch/dam/nccs/fr/dokumente/website/sektoren/gesundheit/hitze_staedte_2018_bafu.pdf.download.pdf/2018_OFEV_ARE_quand%20la%20ville%20surchauffe.pdf) to heat stress due to the formation of heat islands, with [effects on health](https://www.nccs.admin.ch/dam/nccs/de/dokumente/website/sektoren/gesundheit/ofev-la-canicule-et-la-secheresse-2018.pdf.download.pdf/OFEV_La%20canicule%20et%20la%20s%C3%A9cheresse%20de%20l%27%C3%A9t%C3%A9%202018%20(2019).pdf).
+Possible scenario in **2060**, without mitigation: The average near-surface air temperature in Switzerland through June, July and August is about **4.5 °C warmer** than today. At the same time, there is up to **a quarter less rainfall**, and the **longest dry period without precipitation in summer lasts about 20 days instead of 11**. 
+
+For example, in the hottest days in summer, temperatures could shoot up 5.5 °C higher than we are accustomed to now. Hot summers such as in the record year of 2003 have become the norm. Very hot days – with temperatures that used to occur only once in a year – are now occurring on average 18 times per year. [Cities are particularly vulnerable](https://www.nccs.admin.ch/dam/nccs/fr/dokumente/website/sektoren/gesundheit/hitze_staedte_2018_bafu.pdf.download.pdf/2018_OFEV_ARE_quand%20la%20ville%20surchauffe.pdf) to heat stress due to the formation of heat islands, with [effects on health](https://www.nccs.admin.ch/dam/nccs/de/dokumente/website/sektoren/gesundheit/ofev-la-canicule-et-la-secheresse-2018.pdf.download.pdf/OFEV_La%20canicule%20et%20la%20s%C3%A9cheresse%20de%20l%27%C3%A9t%C3%A9%202018%20(2019).pdf).
+
 The official Swiss Hydro-CH2018 hydrological scenarios further indicate that climate change will also [greatly affect water availability](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/schweizer-hydroszenarien/key-messages.html) over the course of the year, with implications for our forests, agriculture, hydropower and biodiversity.
 
 ## Data
 
 Have a look at the [Jupyter notebook `loading_datasets_example.ipynb`](loading_datasets_example.ipynb) to find examples of how to use the following datasets.
 
+- [Swiss CH2018 Climate Change Scenarios](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/swiss-climate-change-scenarios.html)
+  - With the following links, you can access the datasets. The first link will lead you to the curated list, containing the projection `MPICSC-REMO1_MPIESM_EUR11`. The second one will allow you to access the complete datasets.
+    - [curated](listing_tree_curated.md)
+    - [complete](listing_tree_source.md)
+  - [Jupyter notebook `intro_climate_data.ipynb`](intro_climate_data.ipynb) shows how to work with that data.
 - [Homogeneous data series since 1864, temp and precipitation, per month/year](https://www.meteoswiss.admin.ch/home/climate/swiss-climate-in-detail/homogeneous-data-series-since-1864.html?region=Table)
 - [Klimamessnetz **Tageswerte** seit Messbeginn](https://opendata.swiss/de/dataset/klimamessnetz-tageswerte) Download gives you a text file with metadata and link to download a list of links... :-)
 - [Klimamessnetz **Monatswerte**](https://opendata.swiss/de/dataset/klimamessnetz-monatswerte)
@@ -55,7 +63,8 @@ Have a look at the [Jupyter notebook `loading_datasets_example.ipynb`](loading_d
 - [Hydrological data](https://www.bafu.admin.ch/bafu/en/home/topics/water/state/data/obtaining-monitoring-data-on-the-topic-of-water/hydrological-data-service-for-watercourses-and-lakes/hydrological-data-service--products-available--with-examples-.html)
 - [Glaciers monitoring](https://glamos.ch/)
 - [Environmental research data](https://www.envidat.ch/#/)
-- [Swisstopo lo-res LIDAR data](https://www.swisstopo.admin.ch/en/geodata/height/surface3d.html) for this Pauline is preparing a notebook
+- [Swisstopo lo-res LIDAR data](https://www.swisstopo.admin.ch/en/geodata/height/surface3d.html)
+  - see [Jupyter notebook `lidar-processing.ipynb`](lidar-processing.ipynb) for samples on how to use that data
 - [FSO STAT-TAB for direct download of px files](https://www.pxweb.bfs.admin.ch/pxweb/de/) for example [population scenarios](https://www.viz.bfs.admin.ch/assets/01/ga-01.03.01/de/index.html) by canton
 - [population scenarios data links on opendata.swiss](https://opendata.swiss/de/dataset/szenarien-zur-bevolkerungsentwicklung-der-schweiz-2020-2050-bevolkerung-und-bewegungen-nach-sze)
 - [greenhouse gas emissions in CH 1990-2022](https://www.bafu.admin.ch/bafu/en/home/topics/climate/state/data/greenhouse-gas-inventory.html)
