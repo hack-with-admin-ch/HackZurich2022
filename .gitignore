@@ -133,7 +133,6 @@ dmypy.json
 
 data/
 
-
 # Zip file extensions
 *.zip
 *.zip/
